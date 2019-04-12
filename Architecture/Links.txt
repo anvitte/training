@@ -1,0 +1,86 @@
+Architecture
+http://deck.appcontinuum.io/assets/player/KeynoteDHTMLPlayer.html#1
+
+http://www.appcontinuum.io/
+
+Config Server
+https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html
+https://docs.pivotal.io/spring-cloud-services/2-0/common/config-server/images/config-server-fig1.png
+http://steeltoe.io/docs/steeltoe-configuration/#2-2-2-configure-settings
+
+Securing Distributed Server
+
+http://steeltoe.io/docs/steeltoe-security/
+https://docs.pivotal.io/p-identity/1-8/images/oauth_auth_code.png
+https://docs.pivotal.io/p-identity/1-8/images/oauth_client_credentials.png
+https://docs.pivotal.io/p-identity/1-5/index.html
+https://docs.cloudfoundry.org/api/uaa/version/4.8.0/index.html#authorization-code-grant-2
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.authentication.authenticationhttpcontextextensions.gettokenasync?view=aspnetcore-2.2
+http://projects.spring.io/spring-security-oauth/1.x/docs/oauth2.html#grant-types
+
+Circuit Breaker
+
+http://steeltoe.io/docs/steeltoe-circuitbreaker/#1-0-netflix-hystrix
+https://github.com/Netflix/Hystrix/wiki/Configuration#circuitBreaker.requestVolumeThreshold
+
+Service Discovery
+https://github.com/Netflix/eureka/wiki
+https://docs.pivotal.io/spring-cloud-services/2-0/common/service-registry/\
+https://steeltoe.io/docs/steeltoe-discovery/#1-2-6-discovering-services
+https://github.com/SteeltoeOSS/Samples/issues/29
+Navigate to localhost:8761 to see your Eureka dashboard.
+http://projects.spring.io/spring-cloud/spring-cloud.html#_peer_awareness
+
+Deploying a distributed system
+
+https://circleci.com/dashboard
+
+Helth Monitoring
+https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health
+https://steeltoe.io/docs/steeltoe-management/#1-2-9-cloud-foundry
+https://docs.pivotal.io/pivotalcf/2-5/console/using-actuators.html
+https://steeltoe.io/docs/steeltoe-management/#1-2-5-loggers
+https://docs.pivotal.io/pivotalcf/2-5/console/using-actuators.html#manage-log-levels
+
+Interacting with the Database
+http://steeltoe.io/
+https://docs.microsoft.com/en-us/ef/core/modeling/relational/tables
+https://docs.microsoft.com/en-us/ef/core/modeling/relational/columns
+https://docs.microsoft.com/en-us/ef/core/querying/tracking
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/configuring-dbcontext#using-dbcontext-with-dependency-injection
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2&viewFallbackFrom=aspnetcore-2.0#registering-services
+
+Data Migrations
+https://www.mysql.com/
+https://flywaydb.org/documentation/
+https://en.wikipedia.org/wiki/Schema_migration
+https://github.com/lecaillon/Evolve
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations?view=aspnetcore-2.2
+http://dbup.github.io/
+https://flywaydb.org/documentation/
+https://flywaydb.org/documentation/migrations#versioned-migrations
+
+ASP.NET Core MVC with REST endpoints
+
+https://en.wikipedia.org/wiki/Representational_state_transfer
+https://stackify.com/asp-net-core-web-api-guide/
+https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/dotnet/core/testing/selective-unit-tests#xunit
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#service-lifetimes-and-registration-options
+
+Pipelines for multiple environments
+
+https://circleci.com/
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-2.2
+https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-project
+https://courses.education.pivotal.io/c/349802946/course-instructions/route-naming/index.html
+
+Externalize Configuration
+ http://htmlpreview.github.io/?https://raw.githubusercontent.com/cloudfoundry-incubator/diego-design-notes/master/clickable-diego-overview/clickable-diego-overview.html
+https://www.youtube.com/watch?v=1OkmVTFhfLY
+https://12factor.net/
+https://docs.run.pivotal.io/devguide/deploy-apps/environment-variable.html
+https://courses.education.pivotal.io/c/349802946/cloud-native-developer/dotnet-core-developer/externalized-configuration/index.html#externalize-configuration
+https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#env-block
+https://courses.education.pivotal.io/c/349802946/course-instructions/route-naming/index.html
